@@ -5,3 +5,4 @@ type: "gallery"
 ---
 {% gallery /images/bk.jpg backgroud %}
 {% gallery /images/呼市.jpg 呼市 %}
+{% gallery /images/小仓仓.jpg 小仓仓 %}
