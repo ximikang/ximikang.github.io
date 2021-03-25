@@ -1,5 +1,5 @@
 ---
-title: 使用ffmpeg生成缩略图
+title: 使用ffmpeg生成视频缩略图
 date: 2020-12-06 00:00:00
 tags: 
 	- ffmpeg
@@ -13,7 +13,7 @@ tags:
 4. 使用opencv建立画布并生成缩略图
 
 ## ffmpeg解码视频
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/ffmpeg解码视频.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/ffmpeg解码视频.png?x-oss-process=style/common)
 ## 根据缩略图的数量从视频流中取帧
 1. 获取图片之间的时间间隔
 ```c++
@@ -148,4 +148,4 @@ cv::Mat makeThumbnail(vector<cv::Mat> vImage, const unsigned int rowNums, const 
 }
 ```
 ## 最后的效果
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/thumbnail.jpg)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/thumbnail.jpg?x-oss-process=style/common)

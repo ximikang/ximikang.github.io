@@ -86,7 +86,7 @@ try:
 finally:
     pipeline.stop()
 ```
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20201105134623.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20201105134623.png?x-oss-process=style/common)
 ## 保存后的图像读取
 ```python
 import cv2

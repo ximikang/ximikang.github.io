@@ -1,5 +1,5 @@
 ---
-title: 使用iperf
+title: 使用iperf进行内网测速
 tags: 服务器
 date: 2020-07-18 10:32:41
 ---
@@ -34,8 +34,8 @@ iperf3 -c 服务器ip
 ## 测试
 服务器端新建服务器
 
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200718102943.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200718102943.png?x-oss-process=style/common)
 客户端新建连接进行测速
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200718102646.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200718102646.png?x-oss-process=style/common)
 
 需要注意的是在服务器端需要开启5201端口或设置其他端口，或者关闭防火墙。

@@ -35,7 +35,7 @@ sudo apt-get install librealsense2-utils
 
 ## 验证是否安装成功
 重新连接RealSense相机并运行`realsense-viewer`去验证是否安装成功
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200812194410.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200812194410.png?x-oss-process=style/common)
 ## 升级librealsense
 ```shell
 sudo apt-get update

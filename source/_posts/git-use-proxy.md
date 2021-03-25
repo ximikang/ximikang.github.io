@@ -1,6 +1,7 @@
 ---
 title: Git 使用代理加速
 tags: git
+date: 2020-06-28
 ---
 在国内使用github最近一直都是20kb,太折腾人了. 想到使用代理加速git
 

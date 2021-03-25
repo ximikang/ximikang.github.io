@@ -1,6 +1,7 @@
 ---
 title: Vue build后快速测试发布
 tags: vue
+date: 2020-06-28
 ---
 
 # Vue build后快速测试发布

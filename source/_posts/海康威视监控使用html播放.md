@@ -157,6 +157,6 @@ export default {
 ```
 
 ## 最终显示效果
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200916173720.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200916173720.png?x-oss-process=style/common)
 
 视频的延迟大概有3-4秒，对于实时性较高的应用还是达不到要求。

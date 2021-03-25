@@ -12,22 +12,22 @@ date: 2020-08-13
 这样通过此端口的流量就可以通过ssr，流量的pac和代理规则也交付个ssr进行控制。
 一般配置代理端口为1080端口
 
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813113025.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813113025.png?x-oss-process=style/common)
 ### vmware 网络配置
 vmware虚拟机使用Nat模式，这样相当于主机为一个路由器，可以给每个虚拟机分配ip地址。访问主机也就是访问网络的网关。
 
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813113439.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813113439.png?x-oss-process=style/common)
 ## ubuntu配置
 主要配置浏览器的访问和终端的访问
 ### 浏览器配置
 通过设置`setting-> network -> network Proxy`
 设置为Manual模式,使用http或socks代理，地址为主机的地址可以通过主机的ipconfig查看，一般为VMnet8网卡的地址。
 
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813112643.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813112643.png?x-oss-process=style/common)
 
 端口号为主机设置的对应端口
 
-![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813112218.png)
+![](https://ximikang-ciu.oss-cn-beijing.aliyuncs.com/img/20200813112218.png?x-oss-process=style/common)
 
 ### 终端配置
 以上的代理配置仅限于浏览器的使用，对于终端的程序是没有用的。
